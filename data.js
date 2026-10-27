@@ -12,7 +12,7 @@ window.PORTFOLIO = {
   roles: ["AI Full Stack Developer"],
 
   intro:
-    "I build full-stack web apps with the MERN stack — MongoDB, Express, React and Node.js — from secure REST APIs to clean, responsive interfaces.",
+    "I build AI-powered full-stack applications — MERN on the web, with machine learning, LLMs and agentic AI under the hood.",
 
   socials: [
     { label: "GitHub", url: "https://github.com/aaravv28", icon: "fa-brands fa-github" },
@@ -23,7 +23,8 @@ window.PORTFOLIO = {
   about: [
     "I am a third-year B.Tech Computer Engineering student at Dharmsinh Desai University, passionate about software development, Artificial Intelligence, and emerging technologies.",
     "My interests include Full Stack Web Development, AI & Machine Learning, Data Structures, and Algorithms. I enjoy building practical solutions, learning new technologies, and turning ideas into meaningful projects.",
-    "On the AI side, I've built ML models with Python and scikit-learn, integrated a Google Gemini-powered copilot into CampusCart, and contributed to the Agentic AI track at AWS Students Community Day.",
+    "AI is at the core of how I build. I develop end-to-end machine learning pipelines in Python — data cleaning, feature engineering, training and comparing models with scikit-learn, and serving predictions through interactive Streamlit apps. I integrate large language models into real products, like the Google Gemini-powered conversational shopping copilot I built for CampusCart.",
+    "I'm especially focused on Agentic AI — autonomous, tool-using AI systems that can reason and take action — and contributed to the Agentic AI & Artificial Intelligence track at AWS Students Community Day Nadiad 2026. My goal is to combine strong full-stack engineering with AI to ship intelligent applications that solve real problems.",
     "I am continuously enhancing my skills through academic projects and self-learning, with the goal of growing into a skilled software engineer.",
     "I am always open to connecting with fellow developers, industry professionals, and like-minded individuals to learn, collaborate, and explore new opportunities.",
   ],
@@ -215,6 +216,22 @@ window.PORTFOLIO = {
         { name: "Vite", icon: "devicon-vitejs-plain" },
         { name: "REST APIs" },
         { name: "JWT Authentication" },
+      ],
+    },
+    {
+      group: "AI / Machine Learning",
+      icon: "fa-solid fa-brain",
+      items: [
+        { name: "Python", icon: "devicon-python-plain" },
+        { name: "scikit-learn", icon: "devicon-scikitlearn-plain" },
+        { name: "pandas", icon: "devicon-pandas-plain" },
+        { name: "NumPy", icon: "devicon-numpy-plain" },
+        { name: "Streamlit", icon: "devicon-streamlit-plain" },
+        { name: "Google Gemini API", icon: "fa-solid fa-wand-magic-sparkles" },
+        { name: "LLM Integration", icon: "fa-solid fa-comments" },
+        { name: "Agentic AI", icon: "fa-solid fa-robot" },
+        { name: "Feature Engineering" },
+        { name: "Model Evaluation" },
       ],
     },
     {
