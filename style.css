@@ -329,6 +329,17 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 [data-theme="dark"] .devicon-express-original.colored,
 [data-theme="dark"] .devicon-github-original.colored { color: #f4f4f2; }
 
+/* ============ CERTIFICATIONS ============ */
+.cert-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; }
+.cert { display: flex; flex-direction: column; }
+.cert-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; }
+.cert-icon { width: 50px; height: 50px; display: grid; place-items: center; font-size: 1.3rem; background: var(--accent); color: #0a0a0a; border: 2px solid var(--text); }
+.cert-badge { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; padding: 4px 9px; background: var(--text); color: var(--bg); }
+.cert-badge i { color: var(--accent); margin-right: 4px; }
+.cert h4 { font-size: 1.2rem; text-transform: uppercase; line-height: 1.15; }
+.cert-issuer { margin-top: 6px; font-family: "JetBrains Mono", monospace; font-size: 0.82rem; font-weight: 700; color: var(--accent); }
+.cert p { color: var(--muted); font-size: 0.92rem; margin: 12px 0 18px; }
+
 /* ============ BEYOND ============ */
 .beyond-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
 .beyond-item i {
@@ -383,7 +394,8 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   .stats { grid-template-columns: repeat(2, 1fr); }
 }
 
-@media (max-width: 880px) {
+/* Seven nav links don't fit below ~1100px, so the hamburger takes over there. */
+@media (max-width: 1100px) {
   .menu-btn { display: grid; }
   .nav-links {
     position: fixed; top: var(--nav-h); left: 16px; right: 16px; flex-direction: column; gap: 2px;
@@ -392,6 +404,9 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   }
   .nav-links.open { opacity: 1; transform: none; pointer-events: auto; }
   .nav-links a { padding: 12px 14px; font-size: 0.9rem; }
+}
+
+@media (max-width: 880px) {
 
   .hero { grid-template-columns: 1fr; padding-top: calc(var(--nav-h) + 40px); gap: 60px; }
   .hero-visual { order: -1; }
@@ -400,7 +415,7 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   .float-badge { font-size: 0.65rem; padding: 6px 9px; }
   .badge-1 { left: -24%; } .badge-2 { right: -26%; } .badge-3 { left: -22%; }
 
-  .about-grid, .edu-grid, .skill-grid { grid-template-columns: 1fr; }
+  .about-grid, .edu-grid, .skill-grid, .cert-grid { grid-template-columns: 1fr; }
   .project-grid { grid-template-columns: 1fr; }
 }
 

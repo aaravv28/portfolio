@@ -286,6 +286,30 @@ window.PORTFOLIO = {
     },
   ],
 
+  certifications: [
+    {
+      title: "SigmaX – AI Full Stack Development",
+      issuer: "Apna College",
+      icon: "fa-solid fa-robot",
+      text: "AI-powered software engineering: the complete MERN stack with AI-integrated development — LLMs, RAG systems and LangChain.",
+      tags: ["MERN", "LLMs", "RAG", "LangChain"],
+    },
+    {
+      title: "Sigma – Full Stack Web Development",
+      issuer: "Apna College",
+      icon: "fa-solid fa-code",
+      text: "End-to-end web development, from HTML, CSS and JavaScript to building full-stack apps with the MERN stack.",
+      tags: ["HTML/CSS", "JavaScript", "React", "Node.js", "MongoDB"],
+    },
+    {
+      title: "Sigma – Data Structures & Algorithms",
+      issuer: "Apna College",
+      icon: "fa-solid fa-diagram-project",
+      text: "Core data structures and algorithms with problem solving for technical interviews and placements.",
+      tags: ["DSA", "Problem Solving"],
+    },
+  ],
+
   beyond: [
     {
       icon: "fa-solid fa-trophy",

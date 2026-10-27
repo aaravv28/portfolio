@@ -118,6 +118,22 @@
   const logoHTML = logos.map((i) => `<i class="${i} colored"></i>`).join("");
   $("#marquee").innerHTML = logoHTML + logoHTML;
 
+  $("#cert-grid").innerHTML = D.certifications
+    .map(
+      (c) => `
+      <div class="card cert reveal">
+        <div class="cert-top">
+          <span class="cert-icon"><i class="${c.icon}"></i></span>
+          <span class="cert-badge"><i class="fa-solid fa-certificate"></i> Certified</span>
+        </div>
+        <h4>${esc(c.title)}</h4>
+        <div class="cert-issuer">${esc(c.issuer)}</div>
+        <p>${esc(c.text)}</p>
+        <div class="p-tech">${c.tags.map((t) => `<span>${esc(t)}</span>`).join("")}</div>
+      </div>`
+    )
+    .join("");
+
   $("#beyond-grid").innerHTML = D.beyond
     .map(
       (b) => `
