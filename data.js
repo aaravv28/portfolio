@@ -68,8 +68,8 @@ window.PORTFOLIO = {
       ],
     },
     {
-      role: "Volunteer · Agentic AI & AI Track",
-      org: "AWS Student Builder Group, DDU · AWS Students Community Day Nadiad 2026",
+      role: "AWS Student Builder Group",
+      org: "Dharmsinh Desai University · AWS Students Community Day Nadiad 2026",
       period: "2026",
       type: "Community",
       icon: "fa-brands fa-aws",
