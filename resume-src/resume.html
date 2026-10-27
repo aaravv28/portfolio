@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- Source for resume.pdf. Rebuild with Chrome:
+     chrome --headless=new --no-pdf-header-footer --print-to-pdf=../resume.pdf resume.html -->
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Aarav Rakshitkumar Bhatt - Resume</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@333f55ec19733c28cdc43567ecf72eafd6b0af61/font/Serif/cmun-serif.css" />
+<style>
+  @page { size: Letter; margin: 0.42in 0.55in; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "Computer Modern Serif", "Latin Modern Roman", "Times New Roman", serif;
+    font-size: 10.3pt; line-height: 1.27; color: #000;
+  }
+  a { color: #1a0dab; text-decoration: none; }
+  .name { text-align: center; font-size: 18pt; font-weight: bold; letter-spacing: 0.04em; }
+  .contact { text-align: center; font-size: 10.3pt; margin-top: 1pt; }
+  .sep { margin: 0 5pt; }
+
+  h2 {
+    font-size: 10.3pt; font-weight: bold; letter-spacing: 0.04em; text-transform: uppercase;
+    border-bottom: 0.8pt solid #000; padding-bottom: 1pt; margin: 8pt 0 4pt;
+  }
+  .row { display: flex; justify-content: space-between; gap: 12pt; }
+  .entry + .entry { margin-top: 5pt; }
+  .right { white-space: nowrap; }
+  .italic { font-style: italic; }
+
+  table.skills { border-collapse: collapse; width: 100%; }
+  table.skills td { vertical-align: top; padding: 0 0 1pt; }
+  table.skills td:first-child { font-weight: bold; width: 1.75in; }
+
+  .project + .project { margin-top: 6pt; }
+  p { text-align: justify; }
+  ul { margin: 3pt 0 0 16pt; }
+  li { margin-bottom: 1.5pt; padding-left: 2pt; }
+</style>
+</head>
+<body>
+  <div class="name">AARAV RAKSHITKUMAR BHATT</div>
+  <div class="contact">+91 63535 06952<span class="sep">&#8900;</span>Vadodara, Gujarat, India<span class="sep">&#8900;</span><a href="https://aaravbhatt-portfolio.vercel.app">aaravbhatt-portfolio.vercel.app</a></div>
+  <div class="contact">
+    <a href="mailto:aaravbhatt28@yahoo.com">aaravbhatt28@yahoo.com</a><span class="sep">&#8900;</span>
+    <a href="https://www.linkedin.com/in/aarav-rakshitkumar-bhatt-705aa7329/">linkedin.com/in/aarav-rakshitkumar-bhatt</a><span class="sep">&#8900;</span>
+    <a href="https://github.com/aaravv28">github.com/aaravv28</a>
+  </div>
+
+  <h2>Summary</h2>
+  <p>Computer Engineering student with a strong foundation in <b>Java, Spring Boot, React.js, SQL</b>, and <b>Data Structures &amp; Algorithms</b>, seeking <b>Software Developer</b> internship/full-time roles to apply and grow backend and full-stack development skills.</p>
+
+  <h2>Education</h2>
+  <div class="entry">
+    <div class="row"><span><b>Bachelor of Technology, Computer Engineering</b>, Dharmsinh Desai University</span><span class="right">2024 &ndash; 2028</span></div>
+    <div class="row"><span>Current CPI: <b>9.04/10.00</b></span><span class="right italic">Nadiad, Gujarat</span></div>
+  </div>
+  <div class="entry">
+    <div class="row"><span><b>Class XII</b>, Gujarat Secondary and Higher Secondary Education Board</span><span class="right">2024</span></div>
+    <div class="row"><span>Percentile: <b>94.68</b></span><span class="right italic">Gujarat, India</span></div>
+  </div>
+
+  <h2>Experience</h2>
+  <div class="entry">
+    <div class="row"><span><b>Software Developer Intern</b>, AryaStay</span><span class="right">Sep 2026 &ndash; Present</span></div>
+    <ul>
+      <li>Contributing to product development as part of the engineering team &mdash; building, testing, and shipping features in a production codebase.</li>
+      <li>Working within professional development workflows, including version control, team collaboration, and iterative delivery.</li>
+    </ul>
+  </div>
+
+  <h2>Skills</h2>
+  <table class="skills">
+    <tr><td>Technical Skills</td><td>DSA, OOP, DBMS, OS, Computer Networks, Software Engineering</td></tr>
+    <tr><td>Languages</td><td><b>Java</b>, C++, JavaScript, SQL, HTML5, CSS3</td></tr>
+    <tr><td>Frameworks/Libraries</td><td><b>Spring Boot</b>, Spring Security, Hibernate/JPA, <b>React.js</b>, Node.js, Express.js</td></tr>
+    <tr><td>Databases and Tools</td><td><b>PostgreSQL</b>, MySQL, <b>MongoDB</b>, Git, GitHub, Postman, Maven, VS code</td></tr>
+    <tr><td>Core Concepts</td><td><b>REST APIs</b>, <b>JWT Authentication</b>, Swagger/OpenAPI</td></tr>
+    <tr><td>Soft Skills</td><td>Problem Solving, Team Collaboration, Communication, Leadership</td></tr>
+  </table>
+
+  <h2>Projects</h2>
+  <div class="project">
+    <p><b>Smart Fraud Detection API.</b> Developed a secure backend application using Java, Spring Boot, Spring Security, PostgreSQL, <b>JWT</b>, and Swagger/OpenAPI to monitor financial transactions and detect suspicious activities. Designed <b>REST APIs</b> for transaction processing, fraud alert generation, transaction history, and user management with role-based authentication. Implemented a rule-based fraud detection engine, PostgreSQL/JPA persistence, request validation, centralized exception handling, and complete API documentation using <b>Swagger/OpenAPI</b>. <i>(Completed)</i></p>
+  </div>
+  <div class="project">
+    <p><b>CampusConnect &ndash; Professional Networking Platform for Students.</b> Developing a student networking platform for professional profiles, peer connections, posts, events, and placement opportunities using React.js, Node.js, Express.js, and MongoDB. Built <b>REST APIs</b> with <b>JWT authentication</b> and role-based authorization, and a responsive <b>React.js</b> interface. <i>(Ongoing)</i></p>
+  </div>
+
+  <h2>Leadership</h2>
+  <div class="entry">
+    <div class="row"><span><b>Core Organizing Team, Felicific 2026</b></span><span class="right">2026</span></div>
+    <div class="row"><span>Dharmsinh Desai University</span><span class="right italic">Nadiad, Gujarat</span></div>
+    <ul>
+      <li>Mentored and coordinated student teams during the university's annual technical and cultural festival.</li>
+      <li>Supported event planning, participant coordination, and the successful execution of the <b>Family Feud</b> event.</li>
+    </ul>
+  </div>
+
+  <h2>Extra-Curricular Activities</h2>
+  <ul>
+    <li>Participated in a <b>college hackathon</b> as part of a three-member software development team.</li>
+    <li>Organized technical and cultural events as a college committee member.</li>
+    <li>Regularly practise <b>Data Structures and Algorithms</b> to strengthen analytical and problem-solving skills.</li>
+  </ul>
+</body>
+</html>
